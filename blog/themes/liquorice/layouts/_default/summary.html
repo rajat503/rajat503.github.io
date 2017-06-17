@@ -1,12 +1,13 @@
 <article>
     <header>
-        <h2><a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }} (draft) {{end}}</a></h2>
-        <time class="li-article-date">{{ .Date.Format "January 2, 2006" }}</time>
+        <h2><a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }} (draft) {{end}}</a><time class="li-article-date"> | {{ .Date.Format "January 2, 2006" }}</time></h2>
+        <!-- <section class="li-article-section"> -->
+            {{ .Summary }}
+        <!-- </section> -->
     </header>
-    <section class="li-article-section">
-        <p>{{ .Summary }}</p>
-    </section>
-    <footer>
+
+    <!-- <footer>
         <a href='{{ .Permalink }}'>More</a>
-    </footer>
+
+    </footer> -->
 </article>
