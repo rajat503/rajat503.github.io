@@ -1,0 +1,5 @@
+baseURL = "https://rajat503.github.io/blog"
+languageCode = "en-us"
+title = "Rajat Agarwal | Blog"
+[params]
+    author = "Rajat Agarwal"
