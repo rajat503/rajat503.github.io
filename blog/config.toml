@@ -3,3 +3,4 @@ languageCode = "en-us"
 title = "Rajat Agarwal | Blog"
 [params]
     author = "Rajat Agarwal"
+    disqusShortname = "rajatagarwal"
